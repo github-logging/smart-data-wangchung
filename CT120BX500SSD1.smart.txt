@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Mar 29 13:10:19 2021 CEST
+Local Time is:    Tue Mar 30 02:00:02 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,7 +55,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
   5 Reallocate_NAND_Blk_Cnt 0x0032   100   100   010    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       4873
+  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       4886
  12 Power_Cycle_Count       0x0032   100   100   050    Old_age   Always       -       466
 171 Program_Fail_Count      0x0032   100   100   050    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   050    Old_age   Always       -       0
@@ -65,7 +65,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 183 SATA_Interfac_Downshift 0x0032   100   100   050    Old_age   Always       -       0
 184 Error_Correction_Count  0x0032   100   100   050    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   050    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   061   022   050    Old_age   Always   In_the_past 39 (Min/Max 28/78)
+194 Temperature_Celsius     0x0022   060   022   050    Old_age   Always   In_the_past 40 (Min/Max 28/78)
 196 Reallocated_Event_Count 0x0032   100   100   050    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   100   100   050    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   100   050    Old_age   Offline      -       0
@@ -73,9 +73,9 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 202 Percent_Lifetime_Remain 0x0030   087   087   001    Old_age   Offline      -       87
 206 Write_Error_Rate        0x002e   100   100   050    Old_age   Always       -       0
 210 Success_RAIN_Recov_Cnt  0x0032   100   100   050    Old_age   Always       -       0
-246 Total_LBAs_Written      0x0032   100   100   050    Old_age   Always       -       16273569440
-247 Host_Program_Page_Count 0x0032   100   100   050    Old_age   Always       -       508549045
-248 FTL_Program_Page_Count  0x0032   100   100   050    Old_age   Always       -       666154704
+246 Total_LBAs_Written      0x0032   100   100   050    Old_age   Always       -       16336032656
+247 Host_Program_Page_Count 0x0032   100   100   050    Old_age   Always       -       510501020
+248 FTL_Program_Page_Count  0x0032   100   100   050    Old_age   Always       -       668205016
 
 SMART Error Log Version: 1
 Warning: ATA error count 0 inconsistent with error log pointer 1
@@ -106,11 +106,11 @@ Error -4 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
   Commands leading to the command that caused the error were:
   CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
   -- -- -- -- -- -- -- --  ----------------  --------------------
-  61 08 e0 f0 48 ae 00 00      00:00:00.000  WRITE FPDMA QUEUED
-  61 20 18 20 49 ae 00 00      00:00:00.000  WRITE FPDMA QUEUED
-  61 08 70 88 77 97 00 00      00:00:00.000  WRITE FPDMA QUEUED
-  61 20 18 20 49 ae 00 00      00:00:00.000  WRITE FPDMA QUEUED
-  61 20 18 20 49 ae 00 00      00:00:00.000  WRITE FPDMA QUEUED
+  60 20 f0 c0 4b c2 00 00      00:00:00.000  READ FPDMA QUEUED
+  60 08 a8 38 e5 fd 00 00      00:00:00.000  READ FPDMA QUEUED
+  60 08 a8 38 e5 fd 00 00      00:00:00.000  READ FPDMA QUEUED
+  60 08 b8 30 13 c9 00 00      00:00:00.000  READ FPDMA QUEUED
+  60 08 b8 30 13 c9 00 00      00:00:00.000  READ FPDMA QUEUED
 
 SMART Self-test log structure revision number 1
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]
