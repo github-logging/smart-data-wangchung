@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Mar 30 02:00:02 2021 CEST
+Local Time is:    Wed Mar 31 02:00:02 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,14 +55,14 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       16497
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       16521
  12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       506
 168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
 170 Bad_Blk_Ct_Erl/Lat      0x0003   048   048   010    Pre-fail  Always       -       0/1038
 173 MaxAvgErase_Ct          0x0012   100   100   000    Old_age   Always       -       114 (Average 69)
 192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       121
 194 Temperature_Celsius     0x0023   067   067   000    Pre-fail  Always       -       33 (Min/Max 33/33)
-196 Not_In_Use              0x0012   100   100   000    Old_age   Always       -       82018010935
+196 Not_In_Use              0x0012   100   100   000    Old_age   Always       -       82022434615
 218 CRC_Error_Count         0x000b   100   100   050    Pre-fail  Always       -       2
 231 SSD_Life_Left           0x0013   100   100   000    Pre-fail  Always       -       97
 241 Lifetime_Writes_GiB     0x0012   100   100   000    Old_age   Always       -       14829
