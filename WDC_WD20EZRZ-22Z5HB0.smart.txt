@@ -13,7 +13,7 @@ Rotation Rate:    5400 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Apr  2 02:00:02 2021 CEST
+Local Time is:    Sat Apr  3 02:00:02 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -21,8 +21,8 @@ SMART support is: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x84)	Offline data collection activity
-					was suspended by an interrupting command from host.
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Enabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -61,18 +61,18 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       5
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       251
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       275
  10 Spin_Retry_Count        0x0032   100   253   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   253   000    Old_age   Always       -       0
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1
 192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       0
-193 Load_Cycle_Count        0x0032   199   199   000    Old_age   Always       -       3728
-194 Temperature_Celsius     0x0022   115   115   000    Old_age   Always       -       32
+193 Load_Cycle_Count        0x0032   199   199   000    Old_age   Always       -       3742
+194 Temperature_Celsius     0x0022   119   115   000    Old_age   Always       -       28
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
-198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+198 Offline_Uncorrectable   0x0030   200   200   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
-200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
+200 Multi_Zone_Error_Rate   0x0008   200   200   000    Old_age   Offline      -       0
 
 SMART Error Log Version: 1
 No Errors Logged
