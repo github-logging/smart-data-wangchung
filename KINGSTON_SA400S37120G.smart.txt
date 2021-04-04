@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Apr  3 02:00:01 2021 CEST
+Local Time is:    Sun Apr  4 02:00:02 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,7 +55,7 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0032   000   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       18937
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       18961
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       740
 148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
 149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
@@ -69,14 +69,14 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       118
-194 Temperature_Celsius     0x0022   072   055   000    Old_age   Always       -       28 (Min/Max 16/45)
+194 Temperature_Celsius     0x0022   073   055   000    Old_age   Always       -       27 (Min/Max 16/45)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
 218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
 231 SSD_Life_Left           0x0000   027   027   000    Old_age   Offline      -       73
 233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       25470
 241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       20648
-242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       40415
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       40417
 244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       266
 245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       314
 246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       1568532
