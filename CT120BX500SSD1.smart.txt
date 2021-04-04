@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Apr  3 02:00:01 2021 CEST
+Local Time is:    Sun Apr  4 02:00:02 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,11 +55,11 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
   5 Reallocate_NAND_Blk_Cnt 0x0032   100   100   010    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       4982
+  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       5006
  12 Power_Cycle_Count       0x0032   100   100   050    Old_age   Always       -       466
 171 Program_Fail_Count      0x0032   100   100   050    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   050    Old_age   Always       -       0
-173 Ave_Block-Erase_Count   0x0032   100   100   050    Old_age   Always       -       205
+173 Ave_Block-Erase_Count   0x0032   100   100   050    Old_age   Always       -       206
 174 Unexpect_Power_Loss_Ct  0x0032   100   100   050    Old_age   Always       -       282
 180 Unused_Reserve_NAND_Blk 0x0032   100   100   050    Old_age   Always       -       100
 183 SATA_Interfac_Downshift 0x0032   100   100   050    Old_age   Always       -       0
@@ -73,9 +73,9 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 202 Percent_Lifetime_Remain 0x0030   087   087   001    Old_age   Offline      -       87
 206 Write_Error_Rate        0x002e   100   100   050    Old_age   Always       -       0
 210 Success_RAIN_Recov_Cnt  0x0032   100   100   050    Old_age   Always       -       0
-246 Total_LBAs_Written      0x0032   100   100   050    Old_age   Always       -       16820488528
-247 Host_Program_Page_Count 0x0032   100   100   050    Old_age   Always       -       525640266
-248 FTL_Program_Page_Count  0x0032   100   100   050    Old_age   Always       -       685416144
+246 Total_LBAs_Written      0x0032   100   100   050    Old_age   Always       -       16940535096
+247 Host_Program_Page_Count 0x0032   100   100   050    Old_age   Always       -       529391721
+248 FTL_Program_Page_Count  0x0032   100   100   050    Old_age   Always       -       689563344
 
 SMART Error Log Version: 1
 Warning: ATA error count 0 inconsistent with error log pointer 1
@@ -106,10 +106,10 @@ Error -4 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
   Commands leading to the command that caused the error were:
   CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
   -- -- -- -- -- -- -- --  ----------------  --------------------
+  b0 da 00 00 4f c2 00 08      00:00:00.000  SMART RETURN STATUS
   b0 d5 01 00 4f c2 00 08      00:00:00.000  SMART READ LOG
-  60 08 38 18 0a 41 40 08      00:00:00.000  READ FPDMA QUEUED
-  60 08 e8 08 66 6b 40 08      00:00:00.000  READ FPDMA QUEUED
-  60 08 88 a0 b5 72 40 08      00:00:00.000  READ FPDMA QUEUED
+  60 08 f8 18 19 8b 40 08      00:00:00.000  READ FPDMA QUEUED
+  61 08 00 68 bc 9e 40 08      00:00:00.000  WRITE FPDMA QUEUED
   b0 d5 01 01 4f c2 00 08      00:00:00.000  SMART READ LOG
 
 SMART Self-test log structure revision number 1
